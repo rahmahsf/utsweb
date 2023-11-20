@@ -59,7 +59,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-visible">
         <div class="container">
             <!-- Logo di kiri -->
-            <a class="navbar-brand text-dark" href="{{route('index')}}">Bukan Toko Bunga Biasa</a>
+            <a class="navbar-brand text-dark" href="{{route('index')}}">Magic Shop</a>
 
             <!-- Bagian menu di kanan -->
             <ul class="navbar-nav">
@@ -84,7 +84,7 @@
 
     <div class="jumbotron">
         <h1 class="display-4">Selamat Datang di Toko Bunga Kami</h1>
-        <p class="lead">Temukan bunga indah untuk segala kesempatan</p>
+        <p class="lead">Temukan bunga indah seperti bangtan</p>
         <a href="{{route('katalog')}}" class="btn btn-primary btn-lg">Belanja Sekarang</a>
     </div>
 
