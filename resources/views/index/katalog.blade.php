@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-visible">
         <div class="container">
             <!-- Logo di kiri -->
-            <a class="navbar-brand text-dark" href="{{route('index')}}">Bukan Toko Bunga Biasa</a>
+            <a class="navbar-brand text-dark" href="{{route('index')}}">Magic Shop</a>
 
             <!-- Bagian menu di kanan -->
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
