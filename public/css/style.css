@@ -1,0 +1,121 @@
+.banner {
+    background: url("images/landing-page.png")no-repeat center center;
+    background-size:cover;
+    padding-top:20%;
+    padding-bottom:20%;
+    color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.custom-list li::before {
+    content: counter(li) ". ";
+    counter-increment: li;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+    body {
+        padding-top: 56px; /* Adjust based on the height of your fixed navbar */
+    }
+
+    .navbar {
+        background-color: #ffffff; /* Set the background color to white */
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+        color: #000; /* Set the text color to black */
+    }
+
+    .navbar-hidden {
+        transform: translateY(-100%);
+    }
+
+    .navbar-visible {
+        transform: translateY(0);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    body {
+        padding-top: 56px; /* Adjust based on the height of your fixed navbar */
+    }
+
+    .navbar {
+        background-color: #ffffff; /* Set the background color to white */
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+        color: #000; /* Set the text color to black */
+    }
+
+    .nav-link.bahasa-link {
+        color: #000 !important; /* Set the color of the "Bahasa" link to black */
+    }
+
+    .navbar-hidden {
+        transform: translateY(-100%);
+    }
+
+    .navbar-visible {
+        transform: translateY(0);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .circle-img {
+        width: 100px; /* Sesuaikan ukuran lingkaran sesuai kebutuhan */
+        height: 100px;
+        border-radius: 50%; /* Membuat elemen berbentuk lingkaran */
+        object-fit: cover; /* Memastikan gambar terisi penuh dalam lingkaran */
+        margin-bottom: 10px; /* Jarak antara gambar dan teks di bawahnya */
+    }
+       
+    .circle-img {
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+      
+    }
+
+    .social-icon {
+        font-size: 24px;
+        color: #3e3e3e; /* Warna ikon Instagram */
+        margin-right: 5px;
+    }
+
+    .profile-box {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .custom-container {
+        border: 2px solid #363636;
+        border-radius: 8px;
+        background-color: #363636;
+        color: #363636;
+        margin-bottom: 100px; /* Atur margin bottom agar elemen terpisah lebih baik dilihat */
+    }
+
+    
